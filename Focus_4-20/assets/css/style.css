@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: white;
 }
 
 a {
@@ -539,7 +539,7 @@ section {
 
 .about .content .about-btn {
   display: inline-block;
-  background: #67b0d1;
+  background: #2ADB6B;
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -576,7 +576,7 @@ section {
 
 .about .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: white;
 }
 
 @media (max-width: 1200px) {
