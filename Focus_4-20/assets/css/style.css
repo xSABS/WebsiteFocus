@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #121212;
+  color: white;
   background-color: #121212;
 }
 
@@ -47,7 +47,8 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 998;
-  background: #67b0d1;
+  background: transparent;
+  border: 3px solid #1a8a43;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -61,7 +62,8 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #86c0da;
+  background: #1a8a43;
+  border-color: transparent;
   color: #fff;
 }
 
@@ -382,7 +384,7 @@ h6 {
   padding: 4px 0;
   border-radius: 50px;
   transition: 0.3s ease-in-out;
-  margin: 10px;
+  margin: 70px;
   width: 64px;
   height: 64px;
   text-align: center;
