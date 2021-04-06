@@ -438,7 +438,7 @@ section {
   font-weight: bold;
   position: relative;
   margin-bottom: 30px;
-  color: #2f4d5a;
+  color: #1a8a43;
   z-index: 2;
 }
 
@@ -619,7 +619,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #1a8a43;
+  background: #177c3c;
   top: 0;
   border-radius: 0px;
 }
@@ -659,7 +659,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: green;
+  color: #177c3c;
 }
 
 /*--------------------------------------------------------------
@@ -667,6 +667,7 @@ section {
 --------------------------------------------------------------*/
 .counts {
   padding-bottom: 30px;
+  background-color: black;
 }
 
 .counts .count-box {
@@ -677,7 +678,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 44px;
-  color: #67b0d1;
+  color: #177c3c;
   float: left;
   line-height: 0;
 }
@@ -717,11 +718,8 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(
-      rgba(103, 176, 209, 0.8),
-      rgba(103, 176, 209, 0.8)
-    ),
-    url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(74, 129, 79, 0.8), rgba(0, 10, 3, 0.8)),
+    url("../img/pexels-olena-4058750\ \(1\).jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -767,9 +765,10 @@ section {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #ecf5f9;
+  background: transparent;
   border-radius: 50px;
   padding: 2px 15px;
+  border: 2px solid green;
 }
 
 .portfolio #portfolio-flters li {
@@ -780,14 +779,14 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #2f4d5a;
+  color: white;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #67b0d1;
+  color: #177c3c;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -887,7 +886,7 @@ section {
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #67b0d1;
+  background-color: blue;
 }
 
 .portfolio-details .portfolio-info {
