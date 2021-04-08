@@ -16,11 +16,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #67b0d1;
+  color: #2adb6b;
 }
 
 a:hover {
-  color: #8ec4dd;
+  color: #2adb6b;
   text-decoration: none;
 }
 
@@ -451,7 +451,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #f8fbfd;
+  background-color: #121212;
   min-height: 40px;
 }
 
@@ -879,14 +879,19 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #67b0d1;
+  border: 1px solid #000000;
 }
-
+#foot{
+  border-radius: 50%;
+}
+#team{
+  background-color: rgb(117, 182, 70);
+}
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: blue;
+  background-color: rgb(15, 175, 33);
 }
 
 .portfolio-details .portfolio-info {
@@ -1233,9 +1238,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #263f49;
+  background: #bdbdbd;
   padding: 0 0 30px 0;
-  color: #fff;
+  color: black;
   font-size: 14px;
 }
 
@@ -1243,15 +1248,6 @@ section {
   padding: 60px 0 30px 0;
 }
 
-#footer .footer-top .footer-info {
-  margin-top: -90px;
-  margin-bottom: 15px;
-  background: white;
-  color: #2f4d5a;
-  border-top: 4px solid #67b0d1;
-  text-align: center;
-  padding: 30px 20px;
-}
 
 #footer .footer-top .footer-info h3 {
   font-size: 24px;
@@ -1271,7 +1267,8 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2f4d5a;
+  background: #2adb6b;
+  border: 2px solid white;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1284,7 +1281,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #67b0d1;
+  background: black;
   color: #fff;
   text-decoration: none;
 }
@@ -1292,7 +1289,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #1a8c43;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1325,14 +1322,14 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: black;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #a2cfe3;
+  color: #1a8c43;
 }
 
 #footer .footer-top .footer-newsletter form {
