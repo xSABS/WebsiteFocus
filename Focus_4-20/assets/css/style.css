@@ -536,7 +536,8 @@ section {
 
 .about .content .about-btn {
   display: inline-block;
-  background: #2adb6b;
+  background: transparent;
+  border: 2px solid #2adb6b;
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -552,7 +553,7 @@ section {
 }
 
 .about .content .about-btn:hover {
-  background: #7bbad7;
+  background: #2adb6b;
 }
 
 .about .icon-boxes .icon-box {
