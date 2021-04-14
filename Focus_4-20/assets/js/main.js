@@ -162,26 +162,26 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
+    let productoContainer = select('.producto-container');
+    if (productoContainer) {
+      let productoIsotope = new Isotope(productoContainer, {
+        itemSelector: '.producto-item',
         layoutMode: 'fitRows'
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+      let productoFilters = select('#producto-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#producto-flters li', function(e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        productoFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        portfolioIsotope.arrange({
+        productoIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        portfolioIsotope.on('arrangeComplete', function() {
+        productoIsotope.on('arrangeComplete', function() {
           AOS.refresh()
         });
       }, true);
@@ -190,16 +190,16 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate producto lightbox 
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
+  const productoLightbox = GLightbox({
+    selector: '.producto-lightbox'
   });
 
   /**
-   * Portfolio details slider
+   * producto details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.producto-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
