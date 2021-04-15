@@ -536,7 +536,8 @@ section {
 
 .about .content .about-btn {
   display: inline-block;
-  background: #2adb6b;
+  background: transparent;
+  border: 2px solid #2adb6b;
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -552,7 +553,7 @@ section {
 }
 
 .about .content .about-btn:hover {
-  background: #7bbad7;
+  background: #2adb6b;
 }
 
 .about .icon-boxes .icon-box {
@@ -646,7 +647,23 @@ section {
 .services .title a {
   color: #111;
 }
+#botoon{
 
+  border: 2px solid #2adb6b;
+  border-radius: 50px;
+  color: #2adb6b;
+  background: transparent;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+#botoon:hover{
+  background: #2adb6b;
+  color: black;
+}
 .services .description {
   font-size: 15px;
   line-height: 28px;
@@ -754,13 +771,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# producto
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.producto .producto-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.producto #producto-flters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -768,10 +785,10 @@ section {
   background: transparent;
   border-radius: 50px;
   padding: 2px 15px;
-  border: 2px solid green;
+  border: 2px solid #2adb6b;
 }
 
-.portfolio #portfolio-flters li {
+.producto #producto-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -784,23 +801,23 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.producto #producto-flters li:hover,
+.producto #producto-flters li.filter-active {
   color: #177c3c;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.producto #producto-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.producto .producto-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+.producto .producto-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -813,7 +830,7 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.producto .producto-wrap .producto-links {
   opacity: 1;
   left: 0;
   right: 0;
@@ -825,7 +842,7 @@ section {
   justify-content: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.producto .producto-wrap .producto-links a {
   color: black;
   font-size: 28px;
   text-align: center;
@@ -834,15 +851,15 @@ section {
   width: 50%;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.producto .producto-wrap .producto-links a:hover {
   background: #177c3c;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a + a {
+.producto .producto-wrap .producto-links a + a {
   border-left: 1px solid #8ec4dd;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.producto .producto-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
@@ -850,29 +867,29 @@ section {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-links {
+.producto .producto-wrap:hover .producto-links {
   opacity: 1;
   bottom: 0;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# producto Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.producto-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.producto-details .producto-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.producto-details .producto-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details
-  .portfolio-details-slider
+.producto-details
+  .producto-details-slider
   .swiper-pagination
   .swiper-pagination-bullet {
   width: 12px;
@@ -887,19 +904,19 @@ section {
 #team{
   background-color: rgb(117, 182, 70);
 }
-.portfolio-details
-  .portfolio-details-slider
+.producto-details
+  .producto-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
   background-color: rgb(15, 175, 33);
 }
 
-.portfolio-details .portfolio-info {
+.producto-details .producto-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(47, 77, 90, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.producto-details .producto-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -907,27 +924,27 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.producto-details .producto-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.producto-details .producto-info ul li + li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.producto-details .producto-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.producto-details .producto-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.producto-details .producto-description p {
   padding: 0;
 }
 
