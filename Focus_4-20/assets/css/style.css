@@ -9,18 +9,18 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Arial Bold", sans-serif;
   color: white;
   background-color: #121212;
 }
 
 a {
   text-decoration: none;
-  color: #177c3c;
+  color: whitesmoke;
 }
 
 a:hover {
-  color: #2adb6b;
+  color: white;
   text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Arial Bold", sans-serif;
 }
 
 #main {
@@ -107,7 +107,7 @@ h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Arial Bold", sans-serif;
   text-transform: uppercase;
 }
 
@@ -157,7 +157,7 @@ h6 {
   justify-content: space-between;
   padding: 8px 16px;
   margin-left: 10px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Arial Bold", sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: #fff;
@@ -734,7 +734,7 @@ section {
 .counts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 0px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Arial Bold", sans-serif;
   font-size: 14px;
   color: #49788c;
 }
@@ -774,7 +774,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Arial Bold", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -924,7 +924,10 @@ section {
   border-radius: 50%;
 }
 #team {
-  background-color: rgb(117, 182, 70);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 10, 3, 0.8)),
+    url("../img/pexels-olena-4058750\ \(1\).jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
 }
 .producto-details
   .producto-details-slider
@@ -1249,7 +1252,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Arial Bold", sans-serif;
 }
 
 #footer .footer-top .social-links a {
